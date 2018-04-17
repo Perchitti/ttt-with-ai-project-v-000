@@ -1,3 +1,11 @@
 #!/usr/bin/env ruby
 
 require_relative '../config/environment'
+
+
+class TicTacToe
+puts "Welcome to Tic Tac Toe."
+
+
+
+end
