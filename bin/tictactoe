@@ -14,3 +14,10 @@ until input == "1" || input == "2" || input == "3"
   puts "Please choose a number: 1, 2, or 3."
   input = gets.strip
 end
+
+puts "Would you like player 1 like to be X or O?"
+token = gets.strip.upcase
+until token == "X" || "O"
+  puts "Please choose X or O"
+  token = gets.strip
+end
